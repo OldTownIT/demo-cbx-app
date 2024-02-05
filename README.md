@@ -51,7 +51,7 @@ Example: '@/components/Counter/Counter';
 | npm run test     | Run tests                           |
 
 
-Note that `npm run build` and `npm run deploy` do fundamentally the same thing.  They just build and put the "prod" vesion of the app in a different folder.  So there is no actual deploy happening out of the box (these scripts don't deliver the built app to another place).
+Note that `npm run build` and `npm run deploy` do fundamentally the same thing.  They just build and put the "prod" vesion of the app in a different folder.  There is no actual deploy happening out of the box (these scripts don't deliver the built app to another place).  The other big difference is that `build-deploy` is tracked and saved in the git repository, while `build-local` is not.
 
 
 ### SERVER CONFIGURATION
