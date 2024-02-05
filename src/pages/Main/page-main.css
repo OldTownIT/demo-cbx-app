@@ -1,4 +1,6 @@
 .page-main {
+    color: #404040;
+
     .column {
         margin: 1em;
         padding: 2em;
@@ -10,6 +12,7 @@
         color: red;
         font-size: 1.5em;
         text-transform: uppercase;
-        margin: 0 0.4em 0.4em 0.4em;
+        margin: 0 0.4em 0.4em 0;
     }
+
 }

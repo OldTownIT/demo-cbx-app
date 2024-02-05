@@ -21,9 +21,10 @@ const filterNav = loggedIn => route => {
 
 const renderNavLink = (route, i) => {
     if (route.external) { 
+        console.log("EXTERNAL!", route);
         return (
             <Link key={i} href={route.targetURL} underline="none" >
-                {route.name}
+                {route.label}
             </Link>
         ); 
     }

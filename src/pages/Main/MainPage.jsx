@@ -20,6 +20,8 @@ function MainPage() {
         <Container className="page-main" sx={sx} >
             <div className="column">
                 <h1>Main Page</h1>
+                <p>This page is login protected.</p>
+                <p>If you see this page, you are LOGGED IN.</p>
             </div>
         </Container>
     );

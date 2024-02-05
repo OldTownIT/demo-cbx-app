@@ -35,6 +35,12 @@ export const allRoutes = [
         public: false,
     },
     {
+        label: 'Google!',
+        targetURL: 'https://google.com',
+        public: true,
+        external: true,
+    },
+    {
         component: NotFound404,
         path: '*',
         public: true,

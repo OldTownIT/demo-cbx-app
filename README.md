@@ -1,10 +1,10 @@
-## Nucleus Admin
+## CBX Demo App
 
 Vite + ViTest + JavaScript + React + Redux + Mui + ESLint + Prettier
 
 #### Getting Started
 
-Make sure nodejs is installed.  Tested using node v 18.16.1
+Make sure nodejs is installed.  Tested using node v `18.16.1` and '20.11.0'
 
 #### Clone the repo
 
@@ -22,7 +22,7 @@ cd demo-cbx-app
 npm ci
 ```
 
-You can also run `npm install` here, but the `ci` command insures that node_modules gets cleaned for a "fresh" install based on package-lock.json.  [[stack overflow](https://stackoverflow.com/questions/52499617/what-is-the-difference-between-npm-install-and-npm-ci)]
+You can run `npm install` instead of `npm ci` here, but the `ci` command insures that node_modules gets cleaned for a "fresh" install based on package-lock.json.  [[stack overflow](https://stackoverflow.com/questions/52499617/what-is-the-difference-between-npm-install-and-npm-ci)]
 
 #### Run
 

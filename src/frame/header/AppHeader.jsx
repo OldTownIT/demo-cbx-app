@@ -22,7 +22,7 @@ function AppHeader() {
                     C<Dot />B<Dot />X
                 </Typography>
                 <Typography textAlign="center" variant="subtitle1">
-                    S S O 
+                    D E M O 
                 </Typography>
             </Stack>
             <AppHeaderNav />
