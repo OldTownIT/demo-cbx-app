@@ -13,7 +13,7 @@ git clone https://github.com/oldtownit/demo-cbx-app
 ```
 
 ```
-cd nuke-admin
+cd demo-cbx-app
 ```
 
 #### Install Dependencies
