@@ -1,7 +1,8 @@
 {
-  "name": "ezbiz2",
+  "name": "demo-cbx-app",
   "version": "0.1.0",
-  "description": "Aptify EzBiz Demo",
+  "description": "Demo CBX App",
+  "type": "module",
   "license": "MIT",
   "author": "mattsahr <matt.sahr@communitybrands.com>",
   "scripts": {

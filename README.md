@@ -22,6 +22,8 @@ cd demo-cbx-app
 npm ci
 ```
 
+You can also run `npm install` here, but the `ci` command insures that node_modules gets cleaned for a "fresh" install based on package-lock.json.  [[stack overflow](https://stackoverflow.com/questions/52499617/what-is-the-difference-between-npm-install-and-npm-ci)]
+
 #### Run
 
 ```
@@ -47,6 +49,9 @@ Example: '@/components/Counter/Counter';
 | npm run lint:fix | Fix the eslint errors               |
 | npm run format   | Runs prettier for all files         |
 | npm run test     | Run tests                           |
+
+
+Note that `npm run build` and `npm run deploy` do fundamentally the same thing.  They just build and put the "prod" vesion of the app in a different folder.  So there is no actual deploy happening out of the box (these scripts don't deliver the built app to another place).
 
 
 ### SERVER CONFIGURATION
