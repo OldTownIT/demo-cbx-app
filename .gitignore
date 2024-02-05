@@ -22,8 +22,8 @@ node_modules
 dist-ssr
 *.local
 
-./config/env/build-settings.js
-./config/ssl/ssl-settings.js
+config/env/build-settings.js
+config/ssl/ssl-settings.js
 .env
 
 build-local
