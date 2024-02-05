@@ -1,0 +1,8 @@
+.page-meetings {
+    .column {
+        margin: 1em;
+        padding: 2em;
+        border-radius: 8px;
+        background: #e0b0a0;
+    }
+}

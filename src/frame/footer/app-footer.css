@@ -1,0 +1,41 @@
+.app-footer {
+    background: #303030;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    .column {
+        min-width: 360px;
+    }
+
+    h1 {
+        color: transparent;
+        border-bottom: 1px solid orange;
+    }
+
+
+    a.footer-link {
+        display: block;
+        text-decoration: none;
+        padding: 1em;
+        color: #c0c0c0;
+        border-radius: 0.3em;
+        margin: 0 0.5em;
+        text-align: center;
+    }
+
+    a.footer-link.active {
+        color: #ff9900;
+        cursor: default;
+        pointer-events: none;
+        border: solid #ff9900;
+        border-width: 0 0 2px 0;
+        margin-bottom: -2px;
+        border-radius: 0.3em 0.3em 0 0;
+    }
+
+    a.footer-link:hover {
+        background: #808080;
+        color: white;
+    }
+}
